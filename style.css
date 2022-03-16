@@ -1,0 +1,249 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Lucida Grande";
+}
+
+a {
+  text-decoration: none;
+}
+
+.clear {
+  clear: left;
+}
+
+.container {
+  max-width: 1170px;
+  width: 100%;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+
+header {
+  height: 65px;
+  width: 100%;
+  background-color: rgba(34, 49, 52, 0.9);
+  position :fixed;
+  top: 0;
+  z-index: 10;
+}
+
+.logo {
+  width: 124px;
+  margin-top: 20px;
+}
+
+.header-left {
+  float: left;
+}
+
+.header-right {
+  float: right;
+  margin-right: -25px;
+}
+
+.header-right a {
+  line-height: 65px;
+  padding: 0 25px;
+  color: white;
+  display: block;
+  float: left;
+  transition: all 0.5s;
+}
+
+.header-right a:hover {
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
+/* Tambahkan CSS untuk menu-icon */
+.menu-icon {
+  color: white;
+  float: right;
+  font-size: 25px;
+  padding: 21px 0;
+  /* Gantikan property display ke none */
+  display: none;
+}
+
+
+.lesson-wrapper {
+  padding-bottom: 80px;
+  padding-left: 5%;
+  padding-right: 5%;
+  background-color: #f7f7f7;
+  text-align: center;
+}
+
+.heading {
+  padding-top: 80px;
+  padding-bottom: 50px;
+  color: #5f5d60;
+}
+
+
+.heading h2 {
+    font-weight: normal;
+}
+
+.judul {
+    padding-top: 120px;
+    padding-bottom: 0px;
+    color: #5f5d60;
+    padding-left: 15px;
+    display: flex;
+    align-items: center;
+}
+
+.judul h5 {
+    display: inline-block;
+    color: #2b546a;
+    font-size: 18px;
+    line-height: 27px;
+    margin: 0 5px;
+    text-align: left;
+}
+
+.lesson {
+  float: left;
+  width: 25%;
+}
+
+.lesson-icon {
+  position: relative;
+}
+
+.lesson-icon p {
+  position: absolute;
+  top: 44%;
+  width: 100%;
+  color: white;
+}
+
+.card-success {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(56, 193, 114, 0.5);
+    border-radius: 0.25rem;
+    float: left;
+    margin: 20px 20px 20px 20px;
+    height: 18rem;
+    width: 15rem;
+}
+
+.card-success:hover {
+    box-shadow: rgb(0 0 0 / 9%) 0 3px 20px !important;
+    transform: translate3d(0, -1px, 0);
+}
+
+.card-danger {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(227, 52, 47, 0.5);
+    border-radius: 0.25rem;
+    float: left;
+    margin: 20px 20px 20px 20px;
+    height: 18rem;
+    width: 15rem;
+}
+
+.card-danger:hover {
+    box-shadow: rgb(0 0 0 / 9%) 0 3px 20px !important;
+    transform: translate3d(0, -1px, 0);
+}
+
+.card-warning {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid #fffacc;
+    border-radius: 0.25rem;
+    float: left;
+    margin: 20px 20px 20px 20px;
+    height: 18rem;
+    width: 15rem;
+}
+
+.card-warning:hover {
+    box-shadow: rgb(0 0 0 / 9%) 0 3px 20px !important;
+    transform: translate3d(0, -1px, 0);
+}
+
+.card-info {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid #d6e9f9;
+    border-radius: 0.25rem;
+    float: left;
+    margin: 20px 20px 20px 20px;
+    height: 18rem;
+    width: 15rem;
+}
+
+.card-info:hover {
+    box-shadow: rgb(0 0 0 / 9%) 0 3px 20px !important;
+    transform: translate3d(0, -1px, 0);
+}
+
+  .card-body {
+    flex: auto;
+    min-height: 1px;
+    padding: 1.25rem;
+  }
+  
+  .card-title {
+    margin-bottom: 0.75rem;
+    font-size: 20px;
+  }
+  
+  .card-subtitle {
+    color: #2b546a;
+    margin: 10px 0 34px;
+    font-size: 12px;
+    letter-spacing: 0;
+    padding: 0 14px;
+    height: 40px;
+    text-align: center;
+  }
+
+.card-img {
+  width: 50%;
+  display: block;
+  margin: auto;
+}
+
+footer img {
+  width: 125px;
+}
+
+footer p {
+  color: #b3aeb5;
+  font-size: 12px;
+}
+
+footer {
+  padding-top: 30px;
+  padding-bottom: 20px;
+}
